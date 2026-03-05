@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: rgb(125, 17, 226);
+    color: rgb(236, 230, 230);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: rgb(154, 235, 189);
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Search Bar */
+.search {
+    text-align: center;
+    padding: 50px;
+}
+
+.search input {
+    padding: 8px;
+    width: 200px;
+    border-radius: 8%;
+}
+
+.search button {
+    padding: 8px;
+    border-radius: 8%;
+}
+
+/* Main Content */
+
+.landing__img {
+    background-image: url(landingimg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    opacity: 90
+}
+
+main {
+    padding: 0px 150px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: rgb(59, 59, 59);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    color: rgb(59, 59, 59);
+    background-color: rgba(250, 248, 248, 0.85);
+    padding: 5px 20px;
+    border-radius: 15%;
+    max-width: 70%;
+    font-weight: bold;
+}
+
+p {
+    background-color: rgba(250, 248, 248, 0.85);
+    padding: 20px;
+    border-radius: 8%;
+    font-weight: bold;
+    max-width: 75%;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(125, 17, 226);
+    color: rgb(59, 59, 59);
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
