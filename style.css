@@ -32,19 +32,31 @@ nav a:hover {
 /* Search Bar */
 .search {
     text-align: center;
-    padding: 50px;
+    padding: 50px 0 0;
 }
 
 .search input {
     padding: 8px;
     width: 200px;
     border-radius: 8%;
+    border: rgb(59, 59, 59) solid 3px;
 }
 
 .search button {
     padding: 8px;
     border-radius: 8%;
+    border: rgb(59, 59, 59) solid 3px;
 }
+
+#sort {
+    max-width: 16%;
+    padding: 5px;
+    margin: 20px auto;
+    border: rgb(59, 59, 59) solid 3px;
+    border-radius: 8%;
+}
+
+
 
 /* Main Content */
 
