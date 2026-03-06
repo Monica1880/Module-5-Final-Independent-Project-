@@ -30,22 +30,34 @@ nav a:hover {
 }
 
 /* Search Bar */
-.search {
+.search-form {
     text-align: center;
-    padding: 50px 0 0;
+    padding: 150px 0 0;
 }
 
-.search input {
+.search-form__input {
+    height: 50px;
+    width: 200px;
+    border-radius: 8%;
+    border: rgb(59, 59, 59) solid 3px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+/* .search input {
     padding: 8px;
     width: 200px;
     border-radius: 8%;
     border: rgb(59, 59, 59) solid 3px;
-}
+} */
 
-.search button {
+.search-form__button {
     padding: 8px;
     border-radius: 8%;
     border: rgb(59, 59, 59) solid 3px;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 #sort {
@@ -54,6 +66,7 @@ nav a:hover {
     margin: 20px auto;
     border: rgb(59, 59, 59) solid 3px;
     border-radius: 8%;
+    font-weight: bold;
 }
 
 
@@ -82,20 +95,29 @@ main {
 
 h2 {
     color: rgb(59, 59, 59);
-    background-color: rgba(250, 248, 248, 0.85);
+    background-color: rgba(250, 248, 248, 0.9);
     padding: 5px 20px;
     border-radius: 15%;
     max-width: 70%;
     font-weight: bold;
+    border: rgb(59, 59, 59) solid 2px;
 }
 
 p {
-    background-color: rgba(250, 248, 248, 0.85);
+    background-color: rgba(250, 248, 248, 0.9);
     padding: 20px;
     border-radius: 8%;
     font-weight: bold;
     max-width: 75%;
+    border: rgb(59, 59, 59) solid 2px;
 }
+/* 
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 24px;
+  padding: 20px;
+} */
 
 /* Footer */
 footer {

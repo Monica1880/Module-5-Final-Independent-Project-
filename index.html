@@ -1,8 +1,9 @@
 <!doctype html>
 <html>
   <head>
-    <title>Module 5 Final Project</title>
+    <title>Module 5 Final Project _ FES Movies API</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="app.js" defer></script>
   </head>
 
   <body>
@@ -17,16 +18,22 @@
     </nav>
 
     <section class="landing__img">
-      <div class="search">
-        <input type="text" placeholder="Search..." />
-        <button>Search</button>
-      </div>
+      <form class="search-form" id="searchForm">
+        <input
+          class="search-form__input"
+          type="text"
+          id="searchInput"
+          placeholder="Search movies..."
+          required
+        />
+        <button class="search-form__button" type="submit">Search</button>
+      </form>
 
-        <select id="sort">
-          <option value="default">Sort</option>
-          <option value="newest">Newest</option>
-          <option value="oldest">Oldest</option>
-        </select>
+      <select id="sort">
+        <option value="default">Sort</option>
+        <option value="newest">Newest</option>
+        <option value="oldest">Oldest</option>
+      </select>
 
       <main>
         <h2>Welcome👋</h2>
@@ -34,6 +41,15 @@
           We are so glad you're here! Please feel free to use the search bar
           above - to search our database for your favorite movie titles.
         </p>
+
+        <!-- <div id="moviesGrid" class="movies-grid"></div>
+
+        <div class="movie-card movie-card--skeleton">
+          <div class="movie-card__img movie-card__img--skeleton"></div>
+          <div class="movie-card__title movie-card__title--skeleton"></div>
+          <div class="movie-card__year movie-card__year--skeleton"></div>
+        </div> -->
+
       </main>
     </section>
 
