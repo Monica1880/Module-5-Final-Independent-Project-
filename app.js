@@ -77,7 +77,7 @@ async function fetchMovies(searchTerm) {
         displayMovies(currentMovies); // Show them on the page
     } else {
         // 😢 No movies found
-        movieGrid.innerHTML = '<p style="color:white; padding: 20px;">No movies found. Try a different search!</p>';
+        movieGrid.innerHTML = '<p style="color:black; padding: 20px;">No movies found. Try a different search!</p>';
         currentMovies = [];
     }
 }
